@@ -189,7 +189,7 @@ function sendMessage ($chatId, $message){
 
 
 ob_start();
-define('API_KEY','373703723:AAFYFMCFzIV1bx6PvpXEdZKGU-2ecIGT_W0');
+define('API_KEY',''); // التوكن
 $admin = "325384922";
 function bot($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
